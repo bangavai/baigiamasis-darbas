@@ -1,0 +1,74 @@
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+#navigation-line{
+    background: var(--black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+  }
+  
+  #cheshire{
+  display: flex;
+  align-items: center;
+  width: 50px
+  }
+  
+ a{
+    text-decoration: none;
+    color: var(--white);
+    opacity: 0.69;
+    position: relative;
+  }
+
+  i{
+    cursor: pointer;
+    color: var(--orange);
+  }
+
+  #burger{
+    display: none;
+  }
+  
+  a::after {
+    content: "";
+    position: absolute;
+    background-color: var(--orange);
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -106%;
+    transition: 0.5s;
+  }
+  
+  a:hover:after{
+  width: 100%;
+  }
+  
+  nav a:hover{
+    opacity: 1;
+  }
+  
+  #features{
+    opacity: 1;
+  }
+  
+  .links{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    gap: 50px;
+  }
+
+  #img1{
+    width: 110px;
+    cursor: pointer;
+  }

@@ -1,0 +1,91 @@
+#mountains{
+    background: url("../images/mountains.png");
+    height: 595px;
+    background-size: cover;
+    background-position: 25% 85%;
+    opacity: 0.8;
+    @include flex-center;
+    gap: 50px;
+  }
+#tabs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.border{
+  border: none;
+}
+.tab{
+  width: 100px;
+  height: 100px;
+  background-color: var(--brown);
+  @include flex-center;
+  color: var(--white);
+text-transform: uppercase;
+}
+
+.tab:hover{
+cursor: pointer;
+background-color: var(--orange);
+}
+.transform-text{
+    transform: rotate(-45deg);
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+.main-information{
+  color: var(--white);
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 80px;
+  gap: 20px;
+}
+
+  #pictures{
+    width: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 50px;
+    
+  }
+
+  #salads{
+    display: flex;
+    flex-direction: row;
+  }
+
+ #salad{
+  background: transparent url(../images/salad.png);
+  background-size: cover;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+ }
+
+ #salad, #vegetables, #stairs:hover{
+  cursor: pointer;
+ }
+
+ #vegetables{
+  background: url(../images/vegetables.png);
+  background-size: cover;
+    background-position: center;
+  width: 200px;
+  height: 200px;
+ }
+
+ #stairs{
+  background: url(../images/stairs.png);
+  background-size: cover;
+    background-position: center;
+  width: 400px;
+  height: 200px;
+ }

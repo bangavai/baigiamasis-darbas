@@ -1,0 +1,107 @@
+#comments-section{
+    height: 600px;
+  }
+  
+  #customers-saying{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 40px;
+  }
+  
+  #line5{
+    height: 2px;
+    width: 64px;
+    border: 0;
+    background: var(--blue);
+  }
+  
+  #people{
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    gap: 150px;
+    margin-top: 70px;
+  }
+  
+  .person{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 240px;
+  }
+  
+  .blue-comment{
+  width: 240px;
+  height: 130px;
+  background: var(--blue);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  font-size: 14px;
+  padding: 15px;
+  }
+  
+  .middle{
+    height: 100px;
+  }
+  
+  .photo-name{
+    display: flex;
+    align-items:  center;
+   margin-top: 15px;
+   gap: 20px;
+  }
+  
+  .name-profession{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid var(--blue);
+    margin-left: 25px;
+  }
+
+  .swiper {
+    width: 1000px;
+    // height: 300px;
+  }
+
+
+  .swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    gap: 50px;
+    padding-bottom: 50px;
+  }
+    
+    .swiper-pagination-bullet{
+        background: var(--blue);
+        width: 10px;
+        height: 10px;
+        transition: 0.3s;
+    }
+    
+    
+    .swiper-button-prev,
+    .swiper-button-next{
+        color: var(--blue);
+        transition: 0.3s;
+    }
+    
+    .swiper-button-prev:hover,
+    .swiper-button-next:hover{
+        transform: scale(1.3);
+    }
+

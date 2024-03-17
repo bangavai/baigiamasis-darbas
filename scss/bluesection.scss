@@ -1,0 +1,75 @@
+#blue-section{
+    height:800px;
+    background: var(--blue);
+   }
+  
+   #pricing-options{
+    color: var(--white);
+    @include flex-center;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 40px;
+   }
+  
+   #line4{
+    height: 2px;
+    width: 64px;
+    border: 0;
+    background: var(--green);
+  }
+  
+  #price-package{
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    gap: 40px;
+  }
+  
+  .type{
+    width: 300px;
+    margin-top: 60px;
+  }
+  
+  .price{
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    height: 100px;
+  }
+  .black{
+    background: var(--black);
+    @include flex-center;
+    flex-direction: column;
+    padding: 20px 0;
+  }
+  .p-white, .dolar, .amount{
+    color: var(--white);
+  }
+  
+  .dolar{
+    font-size: 30px;
+  }
+  .amount{
+    font-size: 80px;
+  }
+  
+  .feature{
+    @include flex-center;
+    flex-direction: column;
+    gap: 20px;
+    background: var(--white);
+    height: 250px;
+    color: var(--darkgray);
+    font-size: 14px;
+  }
+  
+  .green{
+    height: 10px;
+    background: var(--green);
+  }
+  
+  .green-text{
+    height: 50px;
+    @include flex-center;
+    color: var(--white);
+  }

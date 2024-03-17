@@ -1,0 +1,31 @@
+.p-gray{
+    color: var(--darkgray);
+    margin-top: 7px;
+    font-size: 14px;
+  }
+  
+  #social-media{
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+    height: 90px;
+  }
+  
+  #social-media1{
+    margin-left: 50px;
+    width: 500px;
+  }
+  
+  .social-media2{
+    display: flex;
+    margin-right: 50px;
+    gap: 120px;
+  }
+  
+  #wifi{
+    transform: rotate(45deg);
+  }
+
+  i{
+    cursor: pointer;
+  }

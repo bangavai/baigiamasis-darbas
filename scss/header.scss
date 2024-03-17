@@ -1,0 +1,133 @@
+
+  #photo{
+    height: 639px;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("../images/city.png");
+    position: bottom;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  #section1{
+    width: 640px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+    margin-left: 160px;
+    margin-top: 65px;
+  }
+  
+  #img2{
+    width: 247px;
+    height: 108px;
+    margin-bottom: 30px;
+  }
+  
+  #h1margin{
+    margin-bottom: 30px;
+  }
+  
+  #line{
+    height: 2px;
+    width: 60px;
+    border: 0;
+    background: var(--white);
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  #download{
+    border: 2px solid var(--white);
+    text-transform: uppercase;
+    margin-top: 30px;
+    width: 135px;
+    height: 42px;
+    background-color: transparent;
+    color: var(--white);
+    cursor: pointer;
+  }
+  
+  .section2{
+    width: 350px;
+    height: 424px;
+    background-color: var(--white);
+    margin-right: 165px;
+    margin-top: 65px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  span{
+    color: var(--orange);
+    text-transform: uppercase;
+  }
+  
+  #h3header{
+    background: var(--gray);
+    height: 57px;
+    padding: 17px 40px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .h3upper{
+    height: 50px;
+    width: 350px;
+    text-transform: uppercase;
+    background-color: var(--green);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  
+  .h4header{
+    padding: 0px 50px;
+  }
+  
+  .form1{
+    padding: 0 40px;
+   @include flex-center;
+  }
+  .input1 {
+    display: block;
+    width: 250px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--gray);
+    font-size: 0.8em;
+   padding: 15px 0;
+  }
+  
+  .input1[type="text"]{
+    color: var(--black);
+  }
+  
+  .form2{
+    height: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    gap: 20px;
+  }
+  
+  .input2{
+    cursor: pointer;
+    accent-color: green;
+  }
+  
+  label{
+    text-transform: uppercase;
+    font-size: 10px;
+  }

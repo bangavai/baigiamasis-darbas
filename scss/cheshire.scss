@@ -1,0 +1,59 @@
+#Cheshire-County{
+    height: 480px;
+    background: var(--black);
+    color: var(--white);
+    @include flex-center;
+  }
+  #Cheshire-County-logo{
+    width: 388px;
+    height: 170px;
+  }
+  
+  #main-title{
+    width: 400px;
+  }
+  #line2{
+    height: 2px;
+    width: 200px;
+    border: 0;
+    background: var(--orange);
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  #last-title{
+    margin-bottom: 60px;
+  }
+  
+  #first-title, #last-title{
+    font-size: 14px;
+    display: flex;
+  }
+  
+  #first-icon, #second-icon{
+    width: 40px;
+    height: 40px;
+    background: var(--orange);
+    border-radius: 100px;
+    @include flex-center;
+  }
+  
+  .title-info{
+    width: 390px;
+  }
+  
+  .title-and-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+
+  .m-information{
+    color: var(--white);
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 80px;
+  gap: 20px;
+  }
